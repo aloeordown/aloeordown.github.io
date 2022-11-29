@@ -22,7 +22,7 @@
 .page-post .post h1,
 .page-post .post h2 {
   font-weight: normal;
-  font-size: 27px;
+  font-size: 20px;
   position: relative;
   cursor: pointer;
 }
@@ -37,7 +37,7 @@
 .page-post h4,
 .page-post h5,
 .page-post h6 {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: bold;
 }
 .page-post blockquote {
@@ -97,7 +97,7 @@
   line-height: 1.6;
 }
 .page-post code {
-  font-size: 23px;
+  font-size: 16px;
   background-color: #eeeeee;
   word-break: break-all;
   padding: 3px 5px;
@@ -106,7 +106,7 @@
   color: #4d4d4c;
 }
 .page-post pre code {
-  font-size: 23px;
+  font-size: 16px;
   background-color: transparent !important;
   word-break: keep-all;
   padding: 0;
@@ -153,10 +153,10 @@
 }
 @media screen and (max-width: 560px) {
   .page-post {
-    font-size: 23px;
+    font-size: 16px;
   }
   .page-post pre code {
-    font-size: 22px;
+    font-size: 16px;
   }
   .page-post .post > * {
     margin: 15px 0;

@@ -128,7 +128,7 @@ input:-webkit-autofill {
 }
 .header .menu a {
   display: inline-block;
-  font-size: 16px;
+  font-size: 26px;
   margin: 4px 9px;
   white-space: nowrap;
   user-select: auto;
@@ -157,7 +157,7 @@ input:-webkit-autofill {
   font-size: 0;
 }
 .footer-btn i {
-  font-size: 32px;
+  font-size: 22px;
   background-color: #ffffff;
 }
 .footer-btn.theme-toggler {
