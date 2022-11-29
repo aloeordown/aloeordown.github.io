@@ -128,7 +128,7 @@ input:-webkit-autofill {
 }
 .header .menu a {
   display: inline-block;
-  font-size: 26px;
+  font-size: 24px;
   margin: 4px 9px;
   white-space: nowrap;
   user-select: auto;
@@ -207,6 +207,6 @@ input:-webkit-autofill {
   }
   .header .menu a {
     margin: 2px 5px;
-    font-size: 25px;
+    font-size: 24px;
   }
 }
