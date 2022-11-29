@@ -31,7 +31,7 @@ menu:
   - title: 归类
     url: /pages/categories.html
   - title: 搜索
-    url: /pages/links.html
+    url: /pages/search.html
   - title: 关于
     url: 'https://aloeordown.github.io/huiliu/'
 
