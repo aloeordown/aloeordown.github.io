@@ -157,7 +157,7 @@ input:-webkit-autofill {
   font-size: 0;
 }
 .footer-btn i {
-  font-size: 22px;
+  font-size: 32px;
   background-color: #ffffff;
 }
 .footer-btn.theme-toggler {
@@ -207,6 +207,6 @@ input:-webkit-autofill {
   }
   .header .menu a {
     margin: 2px 5px;
-    font-size: 15px;
+    font-size: 25px;
   }
 }
