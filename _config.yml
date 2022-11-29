@@ -1,5 +1,27 @@
-theme: jekyll-theme-minimal
-classes: wide
-title: HuiLiu 刘慧
-logo: me.jpg
+title: Hui Liu
+url: "https://aloeordown.github.io"
+baseurl: "/huiliu"
+
+markdown: kramdown
+#ins_logo: "./logo.png"
+
+tracking_id: #
+
+footer: yes
+footer_url: "https://github.com/aloeordown"
+footer_text: "Page design by Hui Liu"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "About"
+   link: "/huiliu/"
+ - name: "Resume"
+   link: "HuiLiu.pdf"
+ - name: "中文简历"
+   link: "HuiLiuChineseVer.pdf"
+ - name: "Contact"
+   link: "contact"
 
