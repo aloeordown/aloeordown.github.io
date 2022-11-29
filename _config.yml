@@ -32,7 +32,7 @@ menu:
     url: /pages/categories.html
   - title: 搜索
     url: /pages/search.html
-  - title: 关于
+  - title: 个人主页
     url: 'https://aloeordown.github.io/huiliu/'
 
 # 点击页面文字冒出特效,不需要请设置为false
