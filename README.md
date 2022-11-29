@@ -1,2 +1,2 @@
 # huiliu.github.io
-huiliu's personal homepage
+huiliu's personal blog
