@@ -6,7 +6,14 @@
 <div class="page page-post">
   <h1 class="title" id="{{ page.title }}">{{ page.title }}</h1>
   {% if page.date %}
-  <div class="subtitle">{{site.author}} 于 {{ page.date | date: "%Y-%m-%d" }} 发布</div>
+  <div class="subtitle"><i class="fa-solid fa-calendar-day fa-fw"></i>{{site.author}} 于 {{ page.date | date: "%Y-%m-%d" }}
+    <!--字数统计 -->
+  <span class="reading-word" title="Estimated read words">
+    {% assign words = content | strip_html | strip_newlines | remove: " " | size %}
+    <i class="fa-solid fa-file-word fa-fw"></i>{{words}} 字 <i class="fa-solid fa-clock fa-fw"></i>{{words | divided_by:350}} mins
+  </span>
+  </div>
+
   {% endif %}
   <div class="post">
     {{ content }}
@@ -17,6 +24,7 @@
   </div>
   {% endif %}
 </div>
+
 {% include footer.html -%}
 {% include script.html -%}
 <script
