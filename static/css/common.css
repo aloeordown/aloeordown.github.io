@@ -15,7 +15,7 @@ html[transition] {
   transition: all 500ms ease;
 }
 body {
-  max-width: 760px;
+  max-width: 730px;
   padding: 0 14px;
   margin: 0 auto;
 }
