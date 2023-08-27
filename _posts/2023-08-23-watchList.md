@@ -18,7 +18,7 @@ categories: [记录]
 9. 9号秘事 | Inside No.9
 10. 性爱自修室 | Sex Education☑（蹲第四季最终季）
 11. 怪奇物语 | Stranger Things☑（蹲2024年第五季最终季）
-12. 疑犯追踪 | Person of Interest（看完了season 1）
+12. 疑犯追踪 | Person of Interest（看完了season 2）
 13. 犯罪心理 | Criminal Minds（看完了season 1）
 14. 识骨寻踪 | Bones
 15. 西部世界 | West world（看完了season 1）
