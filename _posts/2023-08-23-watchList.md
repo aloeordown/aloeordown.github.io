@@ -7,7 +7,7 @@ categories: [记录]
 
 # 剧
 
-1. 唐顿庄园｜Downtown Abbey☑
+1. 唐顿庄园 | Downtown Abbey☑
 2. 权力的游戏 | Game of Thrones☑
 3. 老友记 | Friends☑
 4. 神探夏洛克 | Sherlock☑
@@ -26,13 +26,13 @@ categories: [记录]
 17. 初来乍到 | Fresh Off the Boat（第一季没看完）
 18. 欲望都市 | Sex and the City
 19. 黑镜 | Black Mirror
-20. 去他妈的世界｜The End of Fucking World
+20. 去他妈的世界 | The End of Fucking World
 21. 王冠 | The Crown
-22. 德雷尔一家｜The Durrells
-23. 紧急呼叫｜9-1-1
-24. 实习医生格蕾｜Grey's Anatomy
-25. 星期三｜Wednesday Addams
-26. 亢奋｜Euphoria
+22. 德雷尔一家 | The Durrells
+23. 紧急呼叫 | 9-1-1
+24. 实习医生格蕾 | Grey's Anatomy
+25. 星期三 | Wednesday Addams
+26. 亢奋 | Euphoria
 27. 男亲女爱
 28. 皆大欢喜
 29. 爱回家之开心速递
