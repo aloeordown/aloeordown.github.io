@@ -127,7 +127,7 @@ categories: [记录]
    - `0 <= Node.val <= 9`
    - 题目数据保证列表表示的数字不含前导零
 
-   解题思路：
+   **解题思路：**
 
    为了实现两个链表的逆序相加，可以按照以下步骤进行：
 
@@ -136,7 +136,7 @@ categories: [记录]
    3. 创建一个新的链表，将每一位的和的个位数添加到新链表，并更新进位。
    4. 如果两个链表的长度不同，处理剩余的部分。
 
-   DEMO：
+   **DEMO：**
 
    ```python
    class ListNode:
@@ -184,12 +184,78 @@ categories: [记录]
            if l2:
                l2 = l2.next
    
-       return dummy.next  # 返回虚拟头结点的下一个节点，即新链表的头结点
+       return dummy.next  # 返回虚拟头结点的下一个节点，即新链表的头结点，以返回整个链表
    ```
 
    
 
-5. 
+5. **无重复字符的最小子串。**
+
+   给定一个字符串 `s` ，请你找出其中不含有重复字符的 **最长子串** 的长度。 
+
+   **示例 1:**
+
+   ```
+   输入: s = "abcabcbb"
+   输出: 3 
+   解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
+   ```
+
+   **示例 2:**
+
+   ```
+   输入: s = "bbbbb"
+   输出: 1
+   解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。
+   ```
+
+   **示例 3:**
+
+   ```
+   输入: s = "pwwkew"
+   输出: 3
+   解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。
+        请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
+   ```
+
+    **提示：**
+
+   - `0 <= s.length <= 5 * 104`
+   - `s` 由英文字母、数字、符号和空格组成
+
+   解题思路：通过遍历字符串中的字符，动态地调整滑动窗口的位置。`char_index_map` 字典用于存储字符及其最新的索引位置，以便在发现重复字符时更新滑动窗口的起始位置。`max_length` 记录最长子串的长度。最终，返回最长子串的长度。这个算法的时间复杂度是 O(n)，其中 n 是字符串的长度。
+
+   DEMO：
+
+   ```python
+   class Solution:
+     def lengthOfLongestSubstring(self, s: str) -> int:
+       char_index_map = {}  # 用于记录字符的最新索引位置
+       max_length = 0  # 记录最长子串的长度
+       start = 0  # 滑动窗口的起始位置
+   
+       for end in range(len(s)):
+           if s[end] in char_index_map and char_index_map[s[end]] >= start:
+               # 如果字符已经在窗口内，更新窗口的起始位置
+               start = char_index_map[s[end]] + 1
+   
+           # 更新字符的最新索引位置
+           char_index_map[s[end]] = end
+   
+           # 更新最长子串的长度
+           max_length = max(max_length, end - start + 1)
+   
+       return max_length
+   
+   ```
+
+   
+
+6. 
+
+7. 
+
+8. 
 
 
 
