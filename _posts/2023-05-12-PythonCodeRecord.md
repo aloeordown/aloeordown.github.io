@@ -296,13 +296,46 @@ categories: [记录]
 
    **解题思路：**
 
-   
+   由于要求算法的时间复杂度为 O(log(m+n))，这提示我们可以考虑使用二分查找的思想。
+
+   首先，我们可以通过二分查找在较短的数组中选择一个分割点，然后根据这个分割点在另一个数组中找到对应的位置。如果两个分割点的值相等，说明我们找到了中位数。
 
    **DEMO：**
+
+   ```python
+   def findMedianSortedArrays(nums1, nums2):
+       if len(nums1) > len(nums2):
+           nums1, nums2 = nums2, nums1
+   
+       x, y = len(nums1), len(nums2)
+       low, high = 0, x
+   
+       while low <= high:
+           partitionX = (low + high) // 2
+           partitionY = (x + y + 1) // 2 - partitionX
+   
+           maxX = float('-inf') if partitionX == 0 else nums1[partitionX - 1]
+           minX = float('inf') if partitionX == x else nums1[partitionX]
+   
+           maxY = float('-inf') if partitionY == 0 else nums2[partitionY - 1]
+           minY = float('inf') if partitionY == y else nums2[partitionY]
+   
+           if maxX <= minY and maxY <= minX:
+               if (x + y) % 2 == 0:
+                   return (max(maxX, maxY) + min(minX, minY)) / 2
+               else:
+                   return max(maxX, maxY)
+           elif maxX > minY:
+               high = partitionX - 1
+           else:
+               low = partitionX + 1
+   ```
 
    
 
 7. 
+
+8. 
 
 7. 
 
