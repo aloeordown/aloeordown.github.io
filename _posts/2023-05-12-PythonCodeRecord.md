@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: PythonCodeRecord
-categories: [记录]
+categories: [专业知识]
 ---
 
 1. **Hanota Problem**
