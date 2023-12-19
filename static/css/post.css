@@ -19,7 +19,12 @@
   margin: 0;
   width: 100%;
 }
-.page-post .post h1,
+.page-post .post h1{
+  font-weight: normal;
+  font-size: 23px;
+  position: relative;
+  cursor: pointer	
+}
 .page-post .post h2 {
   font-weight: normal;
   font-size: 19px;
@@ -37,7 +42,7 @@
 .page-post h4,
 .page-post h5,
 .page-post h6 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 .page-post blockquote {

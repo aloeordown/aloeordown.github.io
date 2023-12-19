@@ -6,7 +6,7 @@
 <!-- 点击页面文字冒出特效 -->
 <script>
 ;(function(){
-  var textArr = ['がんばれ', '呜呼', '别点啦', '冷静', '', 'やめて']
+  var textArr = ['がんばれ', '呜呼', '功德+1~', '咚咚咚~', '', 'やめて']
   window.blog.initClickEffect(textArr)
 })()
 </script>
@@ -46,7 +46,7 @@
       pio_canvas.id = "pio";
       pio_canvas.style.width = "14rem";
       pio_canvas.width = "600";
-      pio_canvas.height = "745";
+      pio_canvas.height = "800";
       pio_container.insertAdjacentElement("beforeend", pio_canvas);
       let pio = new Paul_Pio({
         "mode": "draggable",
@@ -57,19 +57,7 @@
           "custom": [{
             "selector": "a",
             "type": "link",
-          }, {
-            "selector": ".sidebar-toggle",
-            "text": "打开侧边栏叭~"
-          }, {
-            "selector": ".effect-info",
-            "text": "哇，你发现了什么！"
-          }, {
-            "selector": "#sidebar-search-input",
-            "text": "想搜索什么呢？很多干货哦！"
-          }, {
-            "selector": "#toc",
-            "text": "这是目录~"
-          }, {
+          },{
             "selector": ".page-title",
             "text": "这是标题~"
           }, {
