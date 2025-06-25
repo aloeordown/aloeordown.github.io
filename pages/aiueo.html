@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本語五十音図（平仮名・片仮名）</title>
+    <style>
+        body {
+            font-family: 'Meiryo', 'MS Gothic', sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 30px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+            font-size: 18px;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        .hiragana {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .katakana {
+            color: #3498db;
+            font-weight: bold;
+        }
+        .romaji {
+            color: #27ae60;
+            font-size: 14px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section-title {
+            border-left: 5px solid #8e44ad;
+            padding-left: 10px;
+            margin: 25px 0 15px 0;
+            color: #2c3e50;
+        }
+        .note {
+            font-size: 14px;
+            color: #666;
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f0f0f0;
+            border-radius: 4px;
+            line-height: 1.6;
+        }
+        .legend {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            gap: 20px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+        }
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <h1>日本語五十音図（平仮名・片仮名）</h1>
+    
+    <div class="legend">
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #e74c3c;"></div>
+            <span>平仮名</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #3498db;"></div>
+            <span>片仮名</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background-color: #27ae60;"></div>
+            <span>ローマ字</span>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">清音 (せいおん)</h2>
+        <table>
+            <tr>
+                <th>行\段</th>
+                <th>あ段</th>
+                <th>い段</th>
+                <th>う段</th>
+                <th>え段</th>
+                <th>お段</th>
+            </tr>
+            <tr>
+                <th>あ行</th>
+                <td><span class="hiragana">あ</span>/<span class="katakana">ア</span><br><span class="romaji">a</span></td>
+                <td><span class="hiragana">い</span>/<span class="katakana">イ</span><br><span class="romaji">i</span></td>
+                <td><span class="hiragana">う</span>/<span class="katakana">ウ</span><br><span class="romaji">u</span></td>
+                <td><span class="hiragana">え</span>/<span class="katakana">エ</span><br><span class="romaji">e</span></td>
+                <td><span class="hiragana">お</span>/<span class="katakana">オ</span><br><span class="romaji">o</span></td>
+            </tr>
+            <tr>
+                <th>か行</th>
+                <td><span class="hiragana">か</span>/<span class="katakana">カ</span><br><span class="romaji">ka</span></td>
+                <td><span class="hiragana">き</span>/<span class="katakana">キ</span><br><span class="romaji">ki</span></td>
+                <td><span class="hiragana">く</span>/<span class="katakana">ク</span><br><span class="romaji">ku</span></td>
+                <td><span class="hiragana">け</span>/<span class="katakana">ケ</span><br><span class="romaji">ke</span></td>
+                <td><span class="hiragana">こ</span>/<span class="katakana">コ</span><br><span class="romaji">ko</span></td>
+            </tr>
+            <tr>
+                <th>さ行</th>
+                <td><span class="hiragana">さ</span>/<span class="katakana">サ</span><br><span class="romaji">sa</span></td>
+                <td><span class="hiragana">し</span>/<span class="katakana">シ</span><br><span class="romaji">shi</span></td>
+                <td><span class="hiragana">す</span>/<span class="katakana">ス</span><br><span class="romaji">su</span></td>
+                <td><span class="hiragana">せ</span>/<span class="katakana">セ</span><br><span class="romaji">se</span></td>
+                <td><span class="hiragana">そ</span>/<span class="katakana">ソ</span><br><span class="romaji">so</span></td>
+            </tr>
+            <tr>
+                <th>た行</th>
+                <td><span class="hiragana">た</span>/<span class="katakana">タ</span><br><span class="romaji">ta</span></td>
+                <td><span class="hiragana">ち</span>/<span class="katakana">チ</span><br><span class="romaji">chi</span></td>
+                <td><span class="hiragana">つ</span>/<span class="katakana">ツ</span><br><span class="romaji">tsu</span></td>
+                <td><span class="hiragana">て</span>/<span class="katakana">テ</span><br><span class="romaji">te</span></td>
+                <td><span class="hiragana">と</span>/<span class="katakana">ト</span><br><span class="romaji">to</span></td>
+            </tr>
+            <tr>
+                <th>な行</th>
+                <td><span class="hiragana">な</span>/<span class="katakana">ナ</span><br><span class="romaji">na</span></td>
+                <td><span class="hiragana">に</span>/<span class="katakana">ニ</span><br><span class="romaji">ni</span></td>
+                <td><span class="hiragana">ぬ</span>/<span class="katakana">ヌ</span><br><span class="romaji">nu</span></td>
+                <td><span class="hiragana">ね</span>/<span class="katakana">ネ</span><br><span class="romaji">ne</span></td>
+                <td><span class="hiragana">の</span>/<span class="katakana">ノ</span><br><span class="romaji">no</span></td>
+            </tr>
+            <tr>
+                <th>は行</th>
+                <td><span class="hiragana">は</span>/<span class="katakana">ハ</span><br><span class="romaji">ha</span></td>
+                <td><span class="hiragana">ひ</span>/<span class="katakana">ヒ</span><br><span class="romaji">hi</span></td>
+                <td><span class="hiragana">ふ</span>/<span class="katakana">フ</span><br><span class="romaji">fu</span></td>
+                <td><span class="hiragana">へ</span>/<span class="katakana">ヘ</span><br><span class="romaji">he</span></td>
+                <td><span class="hiragana">ほ</span>/<span class="katakana">ホ</span><br><span class="romaji">ho</span></td>
+            </tr>
+            <tr>
+                <th>ま行</th>
+                <td><span class="hiragana">ま</span>/<span class="katakana">マ</span><br><span class="romaji">ma</span></td>
+                <td><span class="hiragana">み</span>/<span class="katakana">ミ</span><br><span class="romaji">mi</span></td>
+                <td><span class="hiragana">む</span>/<span class="katakana">ム</span><br><span class="romaji">mu</span></td>
+                <td><span class="hiragana">め</span>/<span class="katakana">メ</span><br><span class="romaji">me</span></td>
+                <td><span class="hiragana">も</span>/<span class="katakana">モ</span><br><span class="romaji">mo</span></td>
+            </tr>
+            <tr>
+                <th>や行</th>
+                <td><span class="hiragana">や</span>/<span class="katakana">ヤ</span><br><span class="romaji">ya</span></td>
+                <td></td>
+                <td><span class="hiragana">ゆ</span>/<span class="katakana">ユ</span><br><span class="romaji">yu</span></td>
+                <td></td>
+                <td><span class="hiragana">よ</span>/<span class="katakana">ヨ</span><br><span class="romaji">yo</span></td>
+            </tr>
+            <tr>
+                <th>ら行</th>
+                <td><span class="hiragana">ら</span>/<span class="katakana">ラ</span><br><span class="romaji">ra</span></td>
+                <td><span class="hiragana">り</span>/<span class="katakana">リ</span><br><span class="romaji">ri</span></td>
+                <td><span class="hiragana">る</span>/<span class="katakana">ル</span><br><span class="romaji">ru</span></td>
+                <td><span class="hiragana">れ</span>/<span class="katakana">レ</span><br><span class="romaji">re</span></td>
+                <td><span class="hiragana">ろ</span>/<span class="katakana">ロ</span><br><span class="romaji">ro</span></td>
+            </tr>
+            <tr>
+                <th>わ行</th>
+                <td><span class="hiragana">わ</span>/<span class="katakana">ワ</span><br><span class="romaji">wa</span></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><span class="hiragana">を</span>/<span class="katakana">ヲ</span><br><span class="romaji">wo</span></td>
+            </tr>
+            <tr>
+                <th>ん</th>
+                <td colspan="5"><span class="hiragana">ん</span>/<span class="katakana">ン</span><br><span class="romaji">n</span></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">濁音 (だくおん) と半濁音 (はんだくおん)</h2>
+        <table>
+            <tr>
+                <th>行\段</th>
+                <th>あ段</th>
+                <th>い段</th>
+                <th>う段</th>
+                <th>え段</th>
+                <th>お段</th>
+            </tr>
+            <tr>
+                <th>が行</th>
+                <td><span class="hiragana">が</span>/<span class="katakana">ガ</span><br><span class="romaji">ga</span></td>
+                <td><span class="hiragana">ぎ</span>/<span class="katakana">ギ</span><br><span class="romaji">gi</span></td>
+                <td><span class="hiragana">ぐ</span>/<span class="katakana">グ</span><br><span class="romaji">gu</span></td>
+                <td><span class="hiragana">げ</span>/<span class="katakana">ゲ</span><br><span class="romaji">ge</span></td>
+                <td><span class="hiragana">ご</span>/<span class="katakana">ゴ</span><br><span class="romaji">go</span></td>
+            </tr>
+            <tr>
+                <th>ざ行</th>
+                <td><span class="hiragana">ざ</span>/<span class="katakana">ザ</span><br><span class="romaji">za</span></td>
+                <td><span class="hiragana">じ</span>/<span class="katakana">ジ</span><br><span class="romaji">ji</span></td>
+                <td><span class="hiragana">ず</span>/<span class="katakana">ズ</span><br><span class="romaji">zu</span></td>
+                <td><span class="hiragana">ぜ</span>/<span class="katakana">ゼ</span><br><span class="romaji">ze</span></td>
+                <td><span class="hiragana">ぞ</span>/<span class="katakana">ゾ</span><br><span class="romaji">zo</span></td>
+            </tr>
+            <tr>
+                <th>だ行</th>
+                <td><span class="hiragana">だ</span>/<span class="katakana">ダ</span><br><span class="romaji">da</span></td>
+                <td><span class="hiragana">ぢ</span>/<span class="katakana">ヂ</span><br><span class="romaji">ji</span></td>
+                <td><span class="hiragana">づ</span>/<span class="katakana">ヅ</span><br><span class="romaji">zu</span></td>
+                <td><span class="hiragana">で</span>/<span class="katakana">デ</span><br><span class="romaji">de</span></td>
+                <td><span class="hiragana">ど</span>/<span class="katakana">ド</span><br><span class="romaji">do</span></td>
+            </tr>
+            <tr>
+                <th>ば行</th>
+                <td><span class="hiragana">ば</span>/<span class="katakana">バ</span><br><span class="romaji">ba</span></td>
+                <td><span class="hiragana">び</span>/<span class="katakana">ビ</span><br><span class="romaji">bi</span></td>
+                <td><span class="hiragana">ぶ</span>/<span class="katakana">ブ</span><br><span class="romaji">bu</span></td>
+                <td><span class="hiragana">べ</span>/<span class="katakana">ベ</span><br><span class="romaji">be</span></td>
+                <td><span class="hiragana">ぼ</span>/<span class="katakana">ボ</span><br><span class="romaji">bo</span></td>
+            </tr>
+            <tr>
+                <th>ぱ行</th>
+                <td><span class="hiragana">ぱ</span>/<span class="katakana">パ</span><br><span class="romaji">pa</span></td>
+                <td><span class="hiragana">ぴ</span>/<span class="katakana">ピ</span><br><span class="romaji">pi</span></td>
+                <td><span class="hiragana">ぷ</span>/<span class="katakana">プ</span><br><span class="romaji">pu</span></td>
+                <td><span class="hiragana">ぺ</span>/<span class="katakana">ペ</span><br><span class="romaji">pe</span></td>
+                <td><span class="hiragana">ぽ</span>/<span class="katakana">ポ</span><br><span class="romaji">po</span></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">拗音 (ようおん)</h2>
+        <table>
+            <tr>
+                <th>行</th>
+                <th>や段</th>
+                <th>ゆ段</th>
+                <th>よ段</th>
+            </tr>
+            <tr>
+                <th>きゃ行</th>
+                <td><span class="hiragana">きゃ</span>/<span class="katakana">キャ</span><br><span class="romaji">kya</span></td>
+                <td><span class="hiragana">きゅ</span>/<span class="katakana">キュ</span><br><span class="romaji">kyu</span></td>
+                <td><span class="hiragana">きょ</span>/<span class="katakana">キョ</span><br><span class="romaji">kyo</span></td>
+            </tr>
+            <tr>
+                <th>ぎゃ行</th>
+                <td><span class="hiragana">ぎゃ</span>/<span class="katakana">ギャ</span><br><span class="romaji">gya</span></td>
+                <td><span class="hiragana">ぎゅ</span>/<span class="katakana">ギュ</span><br><span class="romaji">gyu</span></td>
+                <td><span class="hiragana">ぎょ</span>/<span class="katakana">ギョ</span><br><span class="romaji">gyo</span></td>
+            </tr>
+            <tr>
+                <th>しゃ行</th>
+                <td><span class="hiragana">しゃ</span>/<span class="katakana">シャ</span><br><span class="romaji">sha</span></td>
+                <td><span class="hiragana">しゅ</span>/<span class="katakana">シュ</span><br><span class="romaji">shu</span></td>
+                <td><span class="hiragana">しょ</span>/<span class="katakana">ショ</span><br><span class="romaji">sho</span></td>
+            </tr>
+            <tr>
+                <th>じゃ行</th>
+                <td><span class="hiragana">じゃ</span>/<span class="katakana">ジャ</span><br><span class="romaji">ja</span></td>
+                <td><span class="hiragana">じゅ</span>/<span class="katakana">ジュ</span><br><span class="romaji">ju</span></td>
+                <td><span class="hiragana">じょ</span>/<span class="katakana">ジョ</span><br><span class="romaji">jo</span></td>
+            </tr>
+            <tr>
+                <th>ちゃ行</th>
+                <td><span class="hiragana">ちゃ</span>/<span class="katakana">チャ</span><br><span class="romaji">cha</span></td>
+                <td><span class="hiragana">ちゅ</span>/<span class="katakana">チュ</span><br><span class="romaji">chu</span></td>
+                <td><span class="hiragana">ちょ</span>/<span class="katakana">チョ</span><br><span class="romaji">cho</span></td>
+            </tr>
+            <tr>
+                <th>にゃ行</th>
+                <td><span class="hiragana">にゃ</span>/<span class="katakana">ニャ</span><br><span class="romaji">nya</span></td>
+                <td><span class="hiragana">にゅ</span>/<span class="katakana">ニュ</span><br><span class="romaji">nyu</span></td>
+                <td><span class="hiragana">にょ</span>/<span class="katakana">ニョ</span><br><span class="romaji">nyo</span></td>
+            </tr>
+            <tr>
+                <th>ひゃ行</th>
+                <td><span class="hiragana">ひゃ</span>/<span class="katakana">ヒャ</span><br><span class="romaji">hya</span></td>
+                <td><span class="hiragana">ひゅ</span>/<span class="katakana">ヒュ</span><br><span class="romaji">hyu</span></td>
+                <td><span class="hiragana">ひょ</span>/<span class="katakana">ヒョ</span><br><span class="romaji">hyo</span></td>
+            </tr>
+            <tr>
+                <th>びゃ行</th>
+                <td><span class="hiragana">びゃ</span>/<span class="katakana">ビャ</span><br><span class="romaji">bya</span></td>
+                <td><span class="hiragana">びゅ</span>/<span class="katakana">ビュ</span><br><span class="romaji">byu</span></td>
+                <td><span class="hiragana">びょ</span>/<span class="katakana">ビョ</span><br><span class="romaji">byo</span></td>
+            </tr>
+            <tr>
+                <th>ぴゃ行</th>
+                <td><span class="hiragana">ぴゃ</span>/<span class="katakana">ピャ</span><br><span class="romaji">pya</span></td>
+                <td><span class="hiragana">ぴゅ</span>/<span class="katakana">ピュ</span><br><span class="romaji">pyu</span></td>
+                <td><span class="hiragana">ぴょ</span>/<span class="katakana">ピョ</span><br><span class="romaji">pyo</span></td>
+            </tr>
+            <tr>
+                <th>みゃ行</th>
+                <td><span class="hiragana">みゃ</span>/<span class="katakana">ミャ</span><br><span class="romaji">mya</span></td>
+                <td><span class="hiragana">みゅ</span>/<span class="katakana">ミュ</span><br><span class="romaji">myu</span></td>
+                <td><span class="hiragana">みょ</span>/<span class="katakana">ミョ</span><br><span class="romaji">myo</span></td>
+            </tr>
+            <tr>
+                <th>りゃ行</th>
+                <td><span class="hiragana">りゃ</span>/<span class="katakana">リャ</span><br><span class="romaji">rya</span></td>
+                <td><span class="hiragana">りゅ</span>/<span class="katakana">リュ</span><br><span class="romaji">ryu</span></td>
+                <td><span class="hiragana">りょ</span>/<span class="katakana">リョ</span><br><span class="romaji">ryo</span></td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="note">
+        <p><strong>五十音図について:</strong></p>
+        <p>・平仮名（ひらがな）は日本語の基本的な音節文字で、主に和語や文法要素を表記するために使用されます。</p>
+        <p>・片仮名（カタカナ）は外来語、外国の地名・人名、擬音語・擬態語、学術用語などを表記するために使用されます。</p>
+        <p>・濁音は「゛」の記号（濁点）で表され、清音に比べて有声子音になります（例: か→が）。</p>
+        <p>・半濁音は「゜」の記号（半濁点）で表され、清音の/p/音になります（例: は→ぱ）。</p>
+        <p>・拗音は小さな「ゃ」「ゅ」「ょ」を使って表され、直前の子音と組み合わさって1音節を形成します。</p>
+    </div>
+</body>
+</html>
