@@ -34,6 +34,8 @@ menu:
     url: /pages/search.html
   - title: 个人主页
     url: 'https://aloeordown.github.io/huiliu/'
+  - title: 五十音图
+    url: /pages/aiueo.html
 
 # 点击页面文字冒出特效,不需要请设置为false
 extClickEffect: true
